@@ -1,0 +1,63 @@
+<!-- Aula Semântica -->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semnântica</title>
+ </head>
+ <body>
+
+    <!-- cabecalho da pagina -->
+    <header>
+        <!-- nav tag para menu de navegação -->
+        <nav>
+            <ul>
+                <!-- tag a - link, se coloca dentro para que englobe tudo /// o target faz com que eu clique no meu link e o meu site continue aberto--> 
+                <li><a href="https://www.tripadvisor.com.br/Attractions-g187460-Activities-c61-t52-Ibiza_Balearic_Islands.html" target="_blank">Quem somos</a></li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Saiba mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- conteudo principal da página -->
+    <main>
+        <!-- secao no documento -->
+        <section>
+            <h1>Viagens vai na web</h1>
+            <iframe width="718" height="404" src="https://www.youtube.com/embed/JPMpa0EXhhk" title="Férias nas Bahamas | Praias, viagem, turismo, natureza | vídeo 4k | Ilhas Bahamas o que visitar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- sessão de tipos de viagens -->
+        <section>
+            <!-- A tag div deve ser usada com sabedoria, ela é usada para divisões pois nao tem valor semantico(nao tem significado) -->
+             <div>
+                <h2>Viagens internacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus ab exercitationem nobis aspernatur, accusamus veniam natus tempore cumque nisi neque, laboriosam atque molestias laborum delectus voluptatem consectetur dignissimos itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae accusantium fuga quod? Quod nam eos quaerat quasi eum quidem sapiente culpa tenetur. Iure voluptates animi sapiente officiis fuga pariatur aspernatur.</p>
+             </div>
+             <div>
+                <h2>Viagens Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellendus ab exercitationem nobis aspernatur, accusamus veniam natus tempore cumque nisi neque, laboriosam atque molestias laborum delectus voluptatem consectetur dignissimos itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa non laboriosam officia esse repellat reprehenderit necessitatibus cumque. Enim minus dolorum consequatur aut error fuga velit qui vel. Quo, eaque.</p>
+             </div>
+             <!-- sessão do form -->
+              <section>
+                <h2>Se inscreva para receber novidades :)</h2>
+                <!-- Agrupa o formulário, usada apenas no formulário aplicando um estilo (não é obrigatório) -->
+                <fieldset>
+                    <!-- usado apenas no fildset -->
+                    <legend>Formulário de cadastro</legend>
+                    <!-- form tag de formulario -->
+                    <form action="">
+                        <label for="nome">Nome:</label> <!-- esse for, conecta o label ao input-->
+                        <input type="text" id="nome" required> 
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                        <input type="submit" >
+                    </form>
+                </fieldset>
+              </section>
+        </section>
+    </main>
+    <!-- final do site "rodape do site" -->
+    <footer></footer>
+ </body>
+ </html>
